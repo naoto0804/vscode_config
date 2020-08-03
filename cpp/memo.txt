@@ -1,1 +1,3 @@
-Command + Shift + b => select "build" => compile
+Mainly used for solving competitive programming (e.g., AtCoder)
+
+- Command + Shift + b => select "build" => compile
