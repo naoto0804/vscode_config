@@ -1,0 +1,1 @@
+Command + Shift + b => select "build" => compile
