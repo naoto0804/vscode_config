@@ -1,3 +1,7 @@
+# https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list
+# Machine A: $ code --list-extensions | xargs -L 1 echo code --install-extension
+# Machine B: $ ./install_extensions.sh
+
 code --install-extension christian-kohler.path-intellisense
 code --install-extension codezombiech.gitignore
 code --install-extension CoenraadS.bracket-pair-colorizer
