@@ -1,0 +1,18 @@
+{
+    "editor.rulers": [79, 119],
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    // specify directories to ignore
+    "files.exclude": {
+        "checkpoints": true,
+        "results": true,
+    },
+
+    // specify python interpreter
+    // "python.pythonPath": ".env/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+}
+
