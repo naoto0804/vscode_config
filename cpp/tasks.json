@@ -3,13 +3,17 @@
     "tasks": [
         {
             "label": "build",
-            "command": "g++",
+            // "command": "g++",
+            "command": "g++-11",
             "args": [
+                "-std=c++14",
+                "-I",
+                ".",
                 "-o",
                 "main.out", // executable
                 "main.cpp", // main file
                 "-g",
-                "-v"
+                "-v",
             ],
             "type": "shell",
             "presentation": {
