@@ -1,0 +1,35 @@
+// to register this
+// Command palette (Ctrl+Alt+P) -> Preferences: Configure User Snippets
+// -> select 'latex' -> copy the entire contents and save (latex.json)
+// Fore more details, please see https://qiita.com/Yarakashi_Kikohshi/items/a9357dd469320ffb65a0#-%E3%82%B9%E3%83%8B%E3%83%9A%E3%83%83%E3%83%88%E3%82%92%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B
+{
+	"Insert Figure": {
+		"prefix": "figure",
+		"body": [
+		  "\\begin{figure}[t]",
+		  "\t\\centering",
+		  "\t\\includegraphics[height=5cm]{${1}.pdf}",
+		  "\t\\caption{${2}}",
+		  "\t\\label{${3}}",
+		  "\\end{figure}",
+		  "",
+		  "${0}",
+		],
+		"description": "Insert graphics"
+	  },
+	  "Insert Table": {
+		"prefix": "table",
+		"body": [
+		  "\\begin{table}[t]",
+		  "\t\\centering",
+		  "\t\\caption{}",
+		  "\t\\label{}",
+		  "\t\\begin{tabular}{${1}} \\hline",
+		  "\t\t${0}",
+		  "\t\t\\hline",
+		  "\t\\end{tabular}",
+		  "\\end{table}",
+		],
+		"description": "Insert table"
+	},
+}
